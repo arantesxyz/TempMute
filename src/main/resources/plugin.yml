@@ -1,0 +1,15 @@
+name: ${artifactId}
+version: ${version}
+description: ${description}
+author: ${author}
+website: ${url}
+
+main: ${mainClass}
+
+commands:
+  tempmute:
+    usage: /<command> <player> <time> [flags]
+    description: Temporary mutes a player
+  unmute:
+    usage: /<command> <player> [flags]
+    description: Unmute a player
