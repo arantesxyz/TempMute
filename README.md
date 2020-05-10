@@ -11,7 +11,8 @@ Download the latest [release](https://github.com/arantesxyz/TempMute/releases) a
 The commands are very simple and easy to use:
 
 #### Tempmute
-Sintaxe: /tempmute <player> <reason time and flags>
+Sintaxe: `/tempmute <player> <reason time and flags>`
+
 Sintaxe examples:
 ```
 /tempmute Arantes 12h 15s Flood - Mutes the player for 12 hours and 15 seconds for the reason "Flood"
@@ -21,7 +22,8 @@ Sintaxe examples:
 ```
 
 #### Unmute
-Sintaxe: /unmute <player> [flags]
+Sintaxe: `/unmute <player> [flags]`
+
 Sintaxe examples:
 ```
 /unmute Arantes - Unmutes the player
