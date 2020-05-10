@@ -44,7 +44,7 @@ public class PlayerListener implements Listener {
 
     @EventHandler
     public void onQuit(PlayerQuitEvent event) {
-        // Clean cache when user logs out
+        // Remove from cache when user logs out
         plugin.getUsers().remove(event.getPlayer().getUniqueId());
     }
 }
